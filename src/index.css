@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: snow;
+}
+#searchIcon {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.card {
+  background-image: linear-gradient(to bottom, #072552df 30%, #aa1d66ee 100%);
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+#weatherimg {
+  height: 300px;
+  width: 300px;
+}
+.image {
+  text-align: center;
+}
+.weatherdata {
+  text-align: center;
+}
+.weatherdata-img {
+  height: 80px;
+  width: 80px;
+}
+p,
+h1 {
+  text-align: center;
+}
+.title {
+  color: rgb(219, 199, 23);
+  letter-spacing: 4px;
+}
+.oopsimg{
+  width: 300px;
+  height: 300px;
+}
